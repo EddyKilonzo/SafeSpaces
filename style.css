@@ -1318,14 +1318,15 @@ ul {
     margin-bottom: 30px; }
     .about-us-content p:last-child {
       margin-bottom: 0; }
-
-.service-area {
+.service-area .row1 {
+  display: flexbox;
+  align-items: center;
+  justify-content: space-between;
   
-  z-index: 1;
-  border-top: 1px solid #ebebeb;
-  /* text-align: center; */
-  padding-top: 50px;
- }
+
+}
+
+
   .service-area i {
     font-size: 42px;
     margin-bottom: 30px;
